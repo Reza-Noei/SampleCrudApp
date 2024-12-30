@@ -1,9 +1,9 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SampleCrudApp.DataTransferObjects
+namespace SampleCrudApp.Contracts.Dto
 {
     [DataContract]
-    public class DeleteUserRequest
+    public class DeletePersonRequest
     {
         [DataMember(Order = 1)]
         public int Id { get; set; }

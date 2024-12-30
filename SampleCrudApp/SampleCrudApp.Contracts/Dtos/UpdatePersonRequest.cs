@@ -1,9 +1,9 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SampleCrudApp.DataTransferObjects
+namespace SampleCrudApp.Contracts.Dto
 {
     [DataContract]
-    public class PersonViewModel
+    public class UpdatePersonRequest
     {
         [DataMember(Order = 1)]
         public int Id { get; set; }
@@ -20,5 +20,4 @@ namespace SampleCrudApp.DataTransferObjects
         [DataMember(Order = 5)]
         public DateTime BirthDay { get; set; }
     }
-
 }

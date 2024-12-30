@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCrudApp", "SampleCrudApp\SampleCrudApp.csproj", "{9AC822E7-DA7E-4814-962C-4D1E088299C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCrudApp", "SampleCrudApp\SampleCrudApp.csproj", "{9AC822E7-DA7E-4814-962C-4D1E088299C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCrudAppClient", "SampleCrudAppClient\SampleCrudAppClient.csproj", "{BDC9E31D-7936-402C-ADCB-86BA57A8A9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCrudApp.Contracts", "SampleCrudApp.Contracts\SampleCrudApp.Contracts.csproj", "{5B7E01B8-924F-4212-B9DA-4F80C02726A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCrudApp.Client", "SampleCrudApp.Client\SampleCrudApp.Client.csproj", "{83199020-10DD-4CA6-BFD8-2AE186269805}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{9AC822E7-DA7E-4814-962C-4D1E088299C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC822E7-DA7E-4814-962C-4D1E088299C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC822E7-DA7E-4814-962C-4D1E088299C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BDC9E31D-7936-402C-ADCB-86BA57A8A9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDC9E31D-7936-402C-ADCB-86BA57A8A9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDC9E31D-7936-402C-ADCB-86BA57A8A9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDC9E31D-7936-402C-ADCB-86BA57A8A9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7E01B8-924F-4212-B9DA-4F80C02726A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7E01B8-924F-4212-B9DA-4F80C02726A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7E01B8-924F-4212-B9DA-4F80C02726A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7E01B8-924F-4212-B9DA-4F80C02726A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83199020-10DD-4CA6-BFD8-2AE186269805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83199020-10DD-4CA6-BFD8-2AE186269805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83199020-10DD-4CA6-BFD8-2AE186269805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83199020-10DD-4CA6-BFD8-2AE186269805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

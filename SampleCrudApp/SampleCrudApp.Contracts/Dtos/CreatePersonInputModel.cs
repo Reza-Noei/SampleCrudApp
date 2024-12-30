@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SampleCrudApp.DataTransferObjects
+namespace SampleCrudApp.Contracts.Dto
 {
     [DataContract]
     public class CreatePersonRequest
